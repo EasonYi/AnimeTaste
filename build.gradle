@@ -5,7 +5,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.1.0'
+        classpath 'com.android.tools.build:gradle:1.1.1'
         classpath 'com.jakewharton.sdkmanager:gradle-plugin:0.12.0'
     }
 }
@@ -39,11 +39,11 @@ dependencies {
 
 
 ext.compileSdkVersion=21
-ext.buildToolsVersion="21.1.2"
+ext.buildToolsVersion="22.0.0"
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    buildToolsVersion "22.0.0"
 
     lintOptions {  
           abortOnError false
